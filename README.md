@@ -7,11 +7,11 @@ For trial accounts, the service is limited to Google.com and Amazon.com pages.
 ## Sending a request
 A request is sent in batches of 1-1,000 URLs.
 
-Endpoint
-POST http://api.scrapezone.com/scrape
-Parameters
-query: a list of URLs to scrape.
-callback_url: the URL to send the response to once the scrape is done (Optional).
+Endpoint: POST http://api.scrapezone.com/scrape
+
+Parameters:
+`query`: a list of URLs to scrape.
+`callback_url`: the URL to send the response to once the scrape is done (Optional).
 
 Request Example:
 
