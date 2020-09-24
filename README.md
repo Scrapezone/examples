@@ -4,8 +4,9 @@ Google and eCommerce HTML Scraper
 Send a request with up to 1,000 URLs and receive the raw, unblocked HTML files.
 For trial accounts, the service is limited to Google.com and Amazon.com pages.
 
-Sending a request
-A request is sent in batches of 1-1,000 URLs
+## Sending a request
+A request is sent in batches of 1-1,000 URLs.
+
 Endpoint
 POST http://api.scrapezone.com/scrape
 Parameters
@@ -27,7 +28,7 @@ callback_url: the URL to send the response to once the scrape is done.
   "callback_url": "YOUR_CALLBACK_URL"
 }
 ```
-Getting the results:
+## Getting the results:
 There are two methods of getting the response:
 Using continuous polling (GET /scrape/job_id)
 Using a callback URL
