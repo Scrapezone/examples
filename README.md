@@ -1,4 +1,4 @@
-# documentation
+# Documentation
 Scrapezone Documentation
 Google and eCommerce HTML Scraper
 Send a request with up to 1,000 URLs and receive the raw, unblocked HTML files.
