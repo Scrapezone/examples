@@ -1,5 +1,3 @@
-# examples
-
 # documentation
 Scrapezone Documentation
 Google and eCommerce HTML Scraper
