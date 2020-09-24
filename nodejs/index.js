@@ -2,7 +2,6 @@ const axios = require("axios");
 require("dotenv").config();
 
 const API_BASE_URL = "http://api.scrapezone.com";
-
 const { BASIC_AUTH_USERNAME, BASIC_AUTH_PASSWORD } = process.env;
 
 const token = Buffer.from(
@@ -10,7 +9,7 @@ const token = Buffer.from(
   "utf8"
 ).toString("base64");
 
-const instance = axios.create({
+const axiosWithToken = axios.create({
   baseURL: API_BASE_URL,
   timeout: 15000,
   headers: {
@@ -21,7 +20,7 @@ const instance = axios.create({
 
 const startScrape = async () => {
   try {
-    const { data } = await instance.post(`${API_BASE_URL}/scrape`, {
+    const { data } = await axiosWithToken.post(`${API_BASE_URL}/scrape`, {
       query: [
         "https://www.amazon.com/s?k=card+games",
         "https://www.amazon.com/s?k=keyboard",
@@ -38,7 +37,9 @@ const startScrape = async () => {
 
 const scrapeStatus = async (job_id) => {
   try {
-    const { data } = await instance.get(`${API_BASE_URL}/scrape/${job_id}`);
+    const { data } = await axiosWithToken.get(
+      `${API_BASE_URL}/scrape/${job_id}`
+    );
     console.log("scrapeStatus function succeeded", data);
     return data;
   } catch (error) {
