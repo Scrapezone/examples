@@ -68,4 +68,4 @@ The response object will be in the following format:
 “html_files” will be sent only for scrapes with status “done”, otherwise “results” will be null.
 
 ## Parsed Results
-Parsed results are requested via the 
+Coming soon!
