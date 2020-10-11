@@ -48,7 +48,7 @@ The response object will be in the following format:
   "job_id": "12345678987654321",
   "callback_url": "THE_CALLBACK_URL",
   "status:" <scraping/done/faulted>,
-  "results:"
+  "html_files:"
     [
     {
        "url": <given_url_1>,
@@ -63,4 +63,4 @@ The response object will be in the following format:
 }
 ```
 
-“results” will be sent only for scrapes with status “done”, otherwise “results” will be null.
+“html_files” will be sent only for scrapes with status “done”, otherwise “results” will be null.
