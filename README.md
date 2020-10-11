@@ -12,6 +12,8 @@ Endpoint: POST http://api.scrapezone.com/scrape
 Parameters:
 `query`: a list of URLs to scrape.
 `callback_url`: the URL to send the response to once the scrape is done (Optional).
+`country`: the country from which the request should be originated. Supported countries:
+'us', 'fr', 'it', 'de', 'uk'
 
 Request Example:
 
@@ -64,3 +66,6 @@ The response object will be in the following format:
 ```
 
 “html_files” will be sent only for scrapes with status “done”, otherwise “results” will be null.
+
+## Parsed Results
+Parsed results are requested via the 
