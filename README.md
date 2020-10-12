@@ -82,4 +82,4 @@ Parsed results allow you to get a JSON or CSV file with the parsed data!
 Available parsers:
 |Parser Name|Description|Example Results File|
 |-----------|-----------|--------------------|
-|amazon_product_display|Amazon PDP (Product Display Page) | [JSON](https://file) [CSV](https://test)|
+|amazon_product_display|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
