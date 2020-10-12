@@ -29,12 +29,15 @@ The response will be formatted in the following way:
 
 `callback_url`: the URL to send the response to once the scrape is done.
 
+`parser_name`: the name of the parser to use on the results. For more info check [Parsed Results](#app.scrapezone.com)
+
 Response Example:
 
 ```
 {
   "job_id": "12345678987654321",
-  "callback_url": "YOUR_CALLBACK_URL"
+  "callback_url": "YOUR_CALLBACK_URL",
+  "parser_name": "Requested parser name"
 }
 ```
 ## Getting the results:
