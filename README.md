@@ -78,4 +78,8 @@ The response object will be in the following format:
 “html_files” will be sent only for scrapes with status “done”, otherwise “results” will be null.
 
 ## Parsed Results
-Coming soon!
+Parsed results allow you to get a JSON or CSV file with the parsed data!
+Available parsers:
+|name|description|
+|----|-----------|
+|bob | test desc.|
