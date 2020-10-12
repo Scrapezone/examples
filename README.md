@@ -107,6 +107,7 @@ This requst will result in the parsed product details of 2 Amazon products.
 curl --user user:pass \
 --header "Content-Type: application/json" \
 --request POST \
---data '{"query":["https://www.amazon.com/dp/B08J65DST5", "https://www.amazon.com/dp/B07FZ8S74R"], "parser_name": "amazon_product_display"}' \
+--data '{"query":["https://www.amazon.com/dp/B08J65DST5", "https://www.amazon.com/dp/B07FZ8S74R"], \
+"parser_name": "amazon_product_display"}' \
 https://api.scrapezone.com/scrape
 ```
