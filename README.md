@@ -80,6 +80,6 @@ The response object will be in the following format:
 ## Parsed Results
 Parsed results allow you to get a JSON or CSV file with the parsed data!
 Available parsers:
-|name|description|
-|----|-----------|
+|Parser Name|Description|Example Results File|
+|----|-----------|-------|
 |bob | test desc.22222|
