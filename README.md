@@ -82,16 +82,15 @@ Parsed results allow you to get a JSON or CSV file with the parsed data!
 Available parsers:
 |Parser Name|Description|Example Results File|
 |-----------|-----------|--------------------|
-|amazon_product_display|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
-|amazon_search|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
-|walmart_product_display|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
-|bestbuy_product_display|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
-|target_product_display|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
-|wayfair_product_display|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
-|etsi_product_display|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
-|ebay_product_display|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
-|lowes_product_display|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
-|amazon_product_display|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
-|homedepot_product_display|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
-|google_news|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
-|google_search|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
+|amazon_product_display|Amazon Product Display Page  | [JSON](https://file)    [CSV](https://test)|
+|amazon_search|Amazon search or category page| [JSON](https://file)    [CSV](https://test)|
+|walmart_product_display|Walmart Product Display Page | [JSON](https://file)    [CSV](https://test)|
+|bestbuy_product_display|BestBuy Product Display Page | [JSON](https://file)    [CSV](https://test)|
+|target_product_display|Target Product Display Page  | [JSON](https://file)    [CSV](https://test)|
+|wayfair_product_display|Wayfair Product Display Page  | [JSON](https://file)    [CSV](https://test)|
+|etsi_product_display|Etsi Product Display Page  | [JSON](https://file)    [CSV](https://test)|
+|ebay_product_display|Ebay Product Display Page  | [JSON](https://file)    [CSV](https://test)|
+|lowes_product_display|Lowes Product Display Page | [JSON](https://file)    [CSV](https://test)|
+|homedepot_product_display|The Home Depot Product Display Page  | [JSON](https://file)    [CSV](https://test)|
+|google_search|Google Search Results Page| [JSON](https://file)    [CSV](https://test)|
+|google_news|Google News Results Page| [JSON](https://file)    [CSV](https://test)|
