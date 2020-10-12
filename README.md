@@ -25,8 +25,11 @@ Request Example:
 
 ### Response
 The response will be formatted in the following way:
-job_id  a list of URLs to scrape.
-callback_url: the URL to send the response to once the scrape is done.
+`job_id`:  a list of URLs to scrape.
+
+`callback_url`: the URL to send the response to once the scrape is done.
+
+Response Example:
 
 ```
 {
@@ -36,8 +39,8 @@ callback_url: the URL to send the response to once the scrape is done.
 ```
 ## Getting the results:
 There are two methods of getting the response:
-Using continuous polling (GET /scrape/job_id)
-Using a callback URL
+* Using continuous polling (GET /scrape/job_id)
+* Using a callback URL
 
 ### GET /scrape/job_id
 An endpoint to check the scrape status and download the results once the scrape is done.
