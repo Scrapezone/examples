@@ -94,7 +94,7 @@ Available parsers:
 |bestbuy_product_display|BestBuy Product Display Page | [JSON](https://file)    [CSV](https://test)|
 |target_product_display|Target Product Display Page  | [JSON](https://file)    [CSV](https://test)|
 |wayfair_product_display|Wayfair Product Display Page  | [JSON](https://file)    [CSV](https://test)|
-|etsi_product_display|Etsi Product Display Page  | [JSON](https://file)    [CSV](https://test)|
+|etsy_product_display|Etsi Product Display Page  | [JSON](https://file)    [CSV](https://test)|
 |ebay_product_display|Ebay Product Display Page  | [JSON](https://file)    [CSV](https://test)|
 |lowes_product_display|Lowes Product Display Page | [JSON](https://file)    [CSV](https://test)|
 |homedepot_product_display|The Home Depot Product Display Page  | [JSON](https://file)    [CSV](https://test)|
