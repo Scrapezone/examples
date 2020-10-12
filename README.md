@@ -94,3 +94,7 @@ Available parsers:
 |homedepot_product_display|The Home Depot Product Display Page  | [JSON](https://file)    [CSV](https://test)|
 |google_search|Google Search Results Page| [JSON](https://file)    [CSV](https://test)|
 |google_news|Google News Results Page| [JSON](https://file)    [CSV](https://test)|
+
+### Example Request
+This requst will result in the parsed product details of 2 Amazon products.
+```curl --user user:pass -d '{ "query": [ "https://www.amazon.com/dp/B08J65DST5", "https://www.amazon.com/dp/B07FZ8S74R" ], "callback_url": "YOUR_CALLBACK_URL" }'```
