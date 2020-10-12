@@ -29,7 +29,7 @@ The response will be formatted in the following way:
 
 `callback_url`: the URL to send the response to once the scrape is done.
 
-`parser_name`: the name of the parser to use on the results. For more info check [Parsed Results](#app.scrapezone.com)
+`parser_name`: the name of the parser to use on the results. For more info check [Parsed Results](https://github.com/Scrapezone/examples/blob/master/README.md#parsed-results)
 
 Response Example:
 
