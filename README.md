@@ -81,5 +81,5 @@ The response object will be in the following format:
 Parsed results allow you to get a JSON or CSV file with the parsed data!
 Available parsers:
 |Parser Name|Description|Example Results File|
-|----|-----------|-------|
-|bob | test desc.22222|
+|-----------|-----------|--------------------|
+|amazon_product_display||this is a text \n with a new line | https://file
