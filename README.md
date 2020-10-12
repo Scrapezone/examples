@@ -23,7 +23,7 @@ Request Example:
 
 ```curl --user user:pass -d '{ "query": [ "https://www.amazon.com/s?k=card+games", "https://www.amazon.com/s?k=keyboard" ], "callback_url": "YOUR_CALLBACK_URL" }'```
 
-Response
+### Response
 The response will be formatted in the following way:
 job_id  a list of URLs to scrape.
 callback_url: the URL to send the response to once the scrape is done.
