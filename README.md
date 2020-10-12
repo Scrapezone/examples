@@ -83,3 +83,15 @@ Available parsers:
 |Parser Name|Description|Example Results File|
 |-----------|-----------|--------------------|
 |amazon_product_display|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
+|amazon_search|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
+|walmart_product_display|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
+|bestbuy_product_display|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
+|target_product_display|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
+|wayfair_product_display|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
+|etsi_product_display|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
+|ebay_product_display|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
+|lowes_product_display|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
+|amazon_product_display|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
+|homedepot_product_display|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
+|google_news|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
+|google_search|Amazon PDP (Product Display Page) | [JSON](https://file)    [CSV](https://test)|
