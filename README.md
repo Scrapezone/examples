@@ -1,5 +1,4 @@
 # Documentation
-Scrapezone Documentation
 Google and eCommerce HTML Scraper
 Send a request with up to 1,000 URLs and receive the raw, unblocked HTML files.
 For trial accounts, the service is limited to Google.com and Amazon.com pages.
